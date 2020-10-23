@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuHerramientas">
+    <property name="title">
+     <string>Herramientas</string>
+    </property>
+    <widget class="QMenu" name="menuHerramientas_de_dibujo">
+     <property name="title">
+      <string>Herramientas de dibujo</string>
+     </property>
+     <addaction name="actionlapiz"/>
+     <addaction name="actionlinea_2"/>
+     <addaction name="actioncurva_2"/>
+     <addaction name="actionrectangulo_2"/>
+     <addaction name="actioncirculo_2"/>
+     <addaction name="actiontriangulo"/>
+     <addaction name="actionpoligono"/>
+    </widget>
+    <widget class="QMenu" name="menuHerramientas_de_selecci_n">
+     <property name="title">
+      <string>Herramientas de selección</string>
+     </property>
+     <addaction name="actionselector"/>
+     <addaction name="actionborrador"/>
+     <addaction name="actionlimpiador"/>
+     <addaction name="actionbote_de_pintura"/>
+    </widget>
+    <addaction name="menuHerramientas_de_dibujo"/>
+    <addaction name="menuHerramientas_de_selecci_n"/>
+   </widget>
+   <widget class="QMenu" name="menuVista_de_objetos">
+    <property name="title">
+     <string>Vista de objetos</string>
+    </property>
+    <addaction name="actiontipo_de_objeto"/>
+    <addaction name="actionubicacion"/>
+    <addaction name="actiondimensiones"/>
+    <addaction name="actionapariencia"/>
+    <addaction name="actionarea"/>
+   </widget>
+   <widget class="QMenu" name="menuEstilo">
+    <property name="title">
+     <string>Estilo</string>
+    </property>
+    <addaction name="actiontamaio"/>
+    <addaction name="actioncolor"/>
+   </widget>
+   <addaction name="menuEstilo"/>
+   <addaction name="menuHerramientas"/>
+   <addaction name="menuVista_de_objetos"/>
+  </widget>
+  <action name="actionlapiz">
+   <property name="text">
+    <string>lapiz</string>
+   </property>
+  </action>
+  <action name="actionlinea_2">
+   <property name="text">
+    <string>linea</string>
+   </property>
+  </action>
+  <action name="actioncurva_2">
+   <property name="text">
+    <string>curva</string>
+   </property>
+  </action>
+  <action name="actionrectangulo_2">
+   <property name="text">
+    <string>rectangulo</string>
+   </property>
+  </action>
+  <action name="actioncirculo_2">
+   <property name="text">
+    <string>circulo</string>
+   </property>
+  </action>
+  <action name="actiontriangulo">
+   <property name="text">
+    <string>triangulo</string>
+   </property>
+  </action>
+  <action name="actionpoligono">
+   <property name="text">
+    <string>poligono</string>
+   </property>
+  </action>
+  <action name="actionselector">
+   <property name="text">
+    <string>selector</string>
+   </property>
+  </action>
+  <action name="actionborrador">
+   <property name="text">
+    <string>borrador</string>
+   </property>
+  </action>
+  <action name="actionlimpiador">
+   <property name="text">
+    <string>limpiador</string>
+   </property>
+  </action>
+  <action name="actionbote_de_pintura">
+   <property name="text">
+    <string>bote de pintura</string>
+   </property>
+  </action>
+  <action name="actiontipo_de_objeto">
+   <property name="text">
+    <string>tipo de objeto</string>
+   </property>
+  </action>
+  <action name="actionubicacion">
+   <property name="text">
+    <string>ubicacion</string>
+   </property>
+  </action>
+  <action name="actiondimensiones">
+   <property name="text">
+    <string>dimensiones</string>
+   </property>
+  </action>
+  <action name="actionapariencia">
+   <property name="text">
+    <string>apariencia</string>
+   </property>
+  </action>
+  <action name="actionarea">
+   <property name="text">
+    <string>area de la figura</string>
+   </property>
+  </action>
+  <action name="actiontamaio">
+   <property name="text">
+    <string>tamaño</string>
+   </property>
+  </action>
+  <action name="actioncolor">
+   <property name="text">
+    <string>color</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
